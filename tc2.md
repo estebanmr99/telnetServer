@@ -59,7 +59,7 @@ Manual de ejecución
         
 ### Ejecución
 
-Primero es necesario tener clonado o descargar el contenido del [repositorio](https://github.com/estebanmr99/redesDocker). Luego, para la ejecución es necesario tener dos comandos en cuenta, es importante aclarar que los comandos de Docker Compose se deben ejecutar en el directorio donde se encuentra el archivo 'docker-compose.yml', y uno adicional para el manejo de los contenedores:
+Primero es necesario tener clonado o descargar el contenido del [repositorio](https://github.com/estebanmr99/telnetServer/tree/master/server). Luego, para la ejecución es necesario tener dos comandos en cuenta, es importante aclarar que los comandos de Docker Compose se deben ejecutar en el directorio donde se encuentra el archivo 'docker-compose.yml', y uno adicional para el manejo de los contenedores:
 1. Se construyen los contenedores.
 
 ```console
