@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+    server:
+        build: ./server
+        container_name: server
+        privileged: true
+        cap_add:
+            - NET_ADMIN
+            - SYS_MODULE
+        ports:
+            - 9666:9666/tcp
